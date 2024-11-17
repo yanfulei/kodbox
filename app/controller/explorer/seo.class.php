@@ -25,7 +25,7 @@ class explorerSeo extends Controller{
 
 		$isKeep   = _get($this->in,'keep') == '1' ? 'keep=1':null;
 		$siteMap  = urlApi('sitemap',$isKeep);		
-		$link  = 'https://github.com/kalcaddle/kodbox';
+		$link  = 'http://pan.bala.run';
 		$html  = "<div class='page-footer' style='display:none;'>\n\t";
 		$html .= "<h3>{$powerBy} <a href='{$link}' target='_blank'>V".KOD_VERSION."</a></h3>\n\t";
 		$html .= "<h3>{$homePage}</h3>\n\t";
